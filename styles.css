@@ -1,0 +1,191 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Common section styles */
+.video-section,
+.cta-section,
+.about-section,
+.contact-section {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Video section styling */
+.video-wrapper {
+    max-width: 100%;
+}
+
+/* CTA section styling */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f00; /* Change this color to match your branding */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* About section styling */
+.about-section {
+    background-color: #f5f5f5;
+}
+
+.profile-image img {
+    width: 200px; /* Adjust the image size as needed */
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Change this color to match your branding */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact section styling */
+.contact-section {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f00; /* Change this color to match your branding */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Menu button styling */
+.menu-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.menu-button span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Overlay menu styling */
+.overlay {
+    position: fixed;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 998;
+}
+
+.overlay ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay ul li {
+    margin: 20px;
+}
+
+.overlay a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.overlay a:hover {
+    text-decoration: underline;
+}
+/* Attractive text styling */
+.attractive-text {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px;
+}
+
+.attractive-text h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.attractive-text p {
+    color: #666;
+    font-size: 16px;
+}

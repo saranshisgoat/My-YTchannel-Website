@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Channel Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-button" id="menu-button">
+        <button>☰ Menu</button>
+    </div>
+
+    <nav class="overlay" id="overlay">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <section class="contact-section">
+        <div class="contact-form">
+            <h2>Send us a message</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2023 ysoserious
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
